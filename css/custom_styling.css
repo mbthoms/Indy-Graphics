@@ -1,0 +1,148 @@
+
+/*Global Styling ==============================================================*/
+/*Making sure that the web content stay below the navbar.*/
+body {
+  padding-top: 70px;
+}
+
+/*Giving padding to the bottom of whatever you apply this class to.*/
+.padding-bottom-2rem {
+    padding-bottom: 2rem;
+}
+
+/*Images ====================================================================*/
+#index-img-1 {
+    width: 100%;
+    height: auto;
+}
+
+/*Fonts======================================================================*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*Full Details ==============================================================*/
+/*Making superscript and subscript functionality*/
+.superscript {
+    font-size:xx-small;
+    vertical-align:top;
+}
+
+.subscript {
+    font-size:xx-small;
+    vertical-align:bottom;
+}
+
+.full-info-numbers {
+    color: #337ab7;
+}
+
+/*Page Headings ==============================================================*/
+#resellers-only, #welcome {
+    color: gold;
+}
+
+.index-paneling {
+    margin-top: 2rem;
+    min-height: 200px;
+}
+
+/*Contact From ===============================================================*/
+.padding-top {
+    padding-top: 1em;
+}
+
+.line-left {
+    border-left: 2px solid gold;
+}
+
+/*Products Page ===============================================================*/
+.list_of_products {
+    font-size: 18pt;
+}
+
+/*Images ==================================================================== */
+#hero-img {
+    background-image: url(http://placehold.it/1920x1080);
+    height: 200px;
+}
+
+.page-header small {
+	color: red;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+
+}
+
+.page-header h1 {
+	padding: 0px;
+	margin:0px;
+}
+
+.page-header {
+	border: none;
+	margin-bottom: 3rem;
+}
+
+
+#contact-info-line-2 {
+	padding-top: 3rem;
+}
+
+/*Nav Bar ====================================================================*/
+body {
+    /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    padding-top: 70px;
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+    margin: 5px auto 10px auto;
+}
+
+.navbar {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,5074a4+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #5074a4 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#5074a4)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffffff 0%,#5074a4 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffffff 0%,#5074a4 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ffffff 0%,#5074a4 100%); /* IE10+ */
+background: linear-gradient(to bottom, #ffffff 0%,#5074a4 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#5074a4',GradientType=0 ); /* IE6-9 */
+}
+
+@media(min-width:768px) {
+    body {
+        /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+        padding-top: 100px;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+        margin: 0;
+    }
+}
+
+
+/*Footer =====================================================================*/
+footer {
+    padding: 1.5em 0em 1em;
+    text-align: center;
+    background-color: #444444;
+    color: white;
+	margin-top: 7rem;
+}
+
+#footer_color {
+    background-color: #444444;
+}
+
+.margin-top-footer {
+    margin-top: 3rem;
+}
